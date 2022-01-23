@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Zilla+Slab&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.sidebar{
+    background-color: #fff;
+    height:95vh;
+    font-family: 'Luxurious Roman', cursive;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top:30px;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:32px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:1.5rem;
+    font-weight: bold;
+    margin:15px 0;
+    text-align:center;
+    padding:13px 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.sidebar .location i{
+    color: blue;
+    font-weight: bold;
+    margin:34px 0 3px 0;
+    text-align:center;
+}
+.sidebar .location{
+    font-size:1.5rem;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar .location span{
+    color: black;
+    font-size:1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+.main{
+    width:85vw;
+    margin: 30px auto auto auto;
+    transition: transform 0.5s ease-in;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.main .info{
+    height:585px;
+    width:80vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.main .info .devpic img{
+    height:485px;
+}
+.main .info .devpic {
+    display: flex;
+    align-items: center;
+}
+.main .info .devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Luxurious Roman', cursive;
+    padding:84px;
+}
+.main .info .devinfo .hello{
+    font-size:2.3rem;
+}
+.main .info .devinfo .name{
+    font-size:2rem;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+}
+.main .info .devinfo .about{
+    font-size:1.8rem;
+    font-family: 'Space Mono', monospace;
+}
+.main .info .devinfo .desc{
+    font-size:1.5rem;
+    margin:6px 0;
+}
+ .buttons button{
+    margin:8px 0 0 0;
+    padding:6px 12px;
+    color:#fff;
+    font-weight: bold;
+    font-size:1rem;
+    background-color: blue;
+    border-radius:4px;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(40, 40, 122);
+}
+.platform{
+    display: flex;
+    flex-direction: column;
+    margin-right:6px;
+}
+.platform i{
+    font-size:1.6rem;
+    margin:15px 0 0 30px;
+    font-weight: bold;
+    color:blue;
+}
+.platform a{
+    text-decoration: none;
+    margin:0 0 0 16px;
+    font-weight: bold;
+    color: black;
+}
+/* ===================================================================================================== */
+.contact{
+    font-family: 'Luxurious Roman', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    width:80vw;
+    height:80vh;
+    font-size:2rem;
+}
+.contact i{
+    color: blue;
+    padding:12px;
+    margin:0 0 0 253px;
+}
+.contact a{
+    text-decoration: none;
+    margin:0 23px;
+    color: black;
+    font-weight: bold;
+}
+/* ====================================================================================================== */
+.main .project-development{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .project-development img{
+    height:523px;
+}
+.main .icon{
+    font-size:2rem;
+    color:blue;
+    cursor: pointer;
+    position:absolute;
+    left:0;
+}
+/* ================================ Toggling ============================= */
+.main #hum{
+    margin-left:22px;
+}
+.main #cross{
+    margin-left:150px;
+    position: absolute;
+    top:10px;
+}
+.sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+}
+/* ======================================================================== */
+.container .skills{
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    height:85vh;
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top:40px;
+}
+.skills .skill-name{
+    display: flex;
+    align-items: center;
+    padding:6px;
+    font-size:2rem;
+    margin:10px 0;
+    font-weight: bold;
+}
+.skills .level{
+  border:1px solid black;
+  height:5vh;
+  border-radius:4px;
+  width:50vw;
+  margin:0 0 0 16px;
+  display: flex;
+  align-items: center;
+}
+.skills .level .html-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation: html-percent 1s linear 1 forwards ;
+}
+.skills .level .css-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:css-percent 1s linear 1 forwards ;
+}
+.skills .level .js-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:js-percent 1s linear 1 forwards ;
+}
+.skills .level .Bootstrap-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:Bootstrap-percent 1s linear 1 forwards ;
+}
+.skills .level .php-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:php-percent 1s linear 1 forwards ;
+}
+.skills .level .sql-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:sql-percent 1s linear 1 forwards ;
+}
+.skills .level .py-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:py-percent 1s linear 1 forwards ;
+}
+.skills .level .React-percent{
+    height:4.6vh;
+    background-color: blue;
+   animation:React-percent 1s linear 1 forwards ;
+}
+@keyframes html-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:48vw;
+    }
+}
+@keyframes css-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:45vw;
+    }
+}
+@keyframes js-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:38vw;
+    }
+}
+@keyframes Bootstrap-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:48vw;
+    }
+}
+@keyframes php-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:45vw;
+    }
+}
+@keyframes sql-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:35vw;
+    }
+}
+@keyframes py-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:35vw;
+    }
+}
+@keyframes React-percent {
+    from{
+        width:0vw;
+    }
+    to{
+        width:30vw;
+    }
+}
+
+
+@media (max-width:1300px){
+
+ .main{
+     margin:50px auto auto auto;
+ }
+    .main .info{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width:60vw;
+        height: auto;
+    }
+    
+    .main .info .devpic img{
+       height:223px;
+    }
+    .main .info .devinfo .hello{
+        font-size:2rem;
+    }
+    .main .info .devinfo .name{
+        font-size:1.8rem;
+    }
+    .main .info .devinfo .about{
+        font-size:1.5rem;
+    }
+    .main .info .devinfo .desc{
+        font-size:1.3rem;
+        margin:6px 0;
+    }
+    .main .info .devinfo{
+   padding:20px;
+    }
+    .sidebar{
+        height:95vh;
+        padding:17px;
+        position: absolute;
+        top:0;
+    }
+    .main #cross{
+       position: absolute;
+    }
+    .main #cross{
+        top:0px;
+    }
+    .container .skills{
+        margin: auto;
+        height:85vh;
+        width:77vw;
+    }
+    .skills .skill-name{
+        font-size:1.2rem;
+    }
+    .skills .level{
+      border:1px solid black;
+      height:4vh;
+      border-radius:4px;
+      width:50vw;
+    }
+    .skills .level .level-for-query{
+        height:3.5vh;
+    }
+    .container .skills{
+        width:auto;
+        margin-top:60px;
+    }
+    .main .project-development img{
+        height:223px;
+    }
+    .contact{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    margin-top:40px;  
+    }
+    .contact i{
+    margin:6px 5px;
+    text-align:center;
+    word-break: break-all;
+    }
+    .contact a{
+        margin:0 13px;
+        font-size:1.5rem;
+        font-weight: bold;
+    }
+}
